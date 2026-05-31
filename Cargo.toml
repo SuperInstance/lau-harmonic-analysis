@@ -1,0 +1,15 @@
+[package]
+name = "lau-harmonic-analysis"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-harmonic-analysis"
+description = "Harmonic analysis library: Fourier series, DFT/FFT, transforms, wavelets, and spectral estimation"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+num-complex = "0.4"
+
+[dev-dependencies]
+serde_json = "1"
